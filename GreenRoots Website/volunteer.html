@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer | GreenRoots Community Garden</title>
+    <link rel="stylesheet" href="greenroots.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">GreenRoots</a>
+            <button class="menu-toggle" aria-label="Toggle navigation"></button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="website.html">Gardens</a></li>
+                <li><a href="volunteer.html" class="active">Volunteer</a></li>
+                <li><a href="donate.html">Donate</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" style="padding: 80px 20px; text-align: center;">
+            <div class="container">
+                <h1>Join Our Volunteer Team</h1>
+                <h1 style="background-color: aqua;"></h1>
+                <p class="lead">Help GreenRoots grow urban gardens, restore green spaces, and teach sustainable living in Riverside.</p>
+                <a href="#volunteer-opportunities" class="btn">See volunteer opportunities</a>
+            </div>
+        </section>
+
+        <section id="volunteer-opportunities" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Volunteer Opportunities</h2>
+                    <p>Choose the way you want to support our community gardens, whether you want to plant, teach, or help at events.</p>
+                </div>
+
+                <div class="card-grid">
+                    <div class="card">
+                        <h3>Garden Care</h3>
+                        <p>Work alongside our team to plant, water, weed, and maintain garden plots at multiple Riverside locations.</p>
+                        <p><strong>When:</strong> Saturdays 8:00am – 12:00pm</p>
+                        <p><strong>Where:</strong> 45 Market Street Garden</p>
+                    </div>
+                    <div class="card">
+                        <h3>Workshops & Education</h3>
+                        <p>Support composting classes, seed-saving sessions, and urban gardening workshops for local residents.</p>
+                        <p><strong>When:</strong> Wednesdays 6:00pm – 8:00pm</p>
+                        <p><strong>Where:</strong> West Avenue Community Hub</p>
+                    </div>
+                    <div class="card">
+                        <h3>Community Events</h3>
+                        <p>Help organize tree plantings, volunteer days, and seasonal garden festivals that bring neighbors together.</p>
+                        <p><strong>When:</strong> Monthly event schedule</p>
+                        <p><strong>Where:</strong> Various garden sites across Riverside</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" style="background-color: #fff;">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Why Volunteer?</h2>
+                    <p>Volunteering with GreenRoots helps build healthier neighborhoods, teaches new skills, and creates lasting environmental benefits.</p>
+                </div>
+                <div class="card-grid">
+                    <div class="card">
+                        <h3>Learn Practical Skills</h3>
+                        <p>Gain hands-on experience in gardening, composting, and sustainable land care.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Make an Impact</h3>
+                        <p>Your time directly supports fresh food access, clean green spaces, and environmental education.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Meet Neighbors</h3>
+                        <p>Build community connections with local volunteers, families, and gardeners.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Sign Up to Volunteer</h2>
+                    <p>Complete the form below and we will contact you with volunteer opportunities that fit your interests.</p>
+                </div>
+                <form action="#" method="post" style="display: grid; gap: 1rem; max-width: 720px; margin: 0 auto;">
+                    <label for="name">Full name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone number</label>
+                    <input type="tel" id="phone" name="phone">
+
+                    <label for="interest">Volunteer interest</label>
+                    <select id="interest" name="interest">
+                        <option value="garden-care">Garden care</option>
+                        <option value="workshops">Workshops & education</option>
+                        <option value="events">Community events</option>
+                        <option value="general">General support</option>
+                    </select>
+
+                    <label for="message">Tell us what you enjoy or any availability notes</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+
+                    <button type="submit" class="btn">Submit your interest</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 GreenRoots Community Garden. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
