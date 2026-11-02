@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate | GreenRoots Community Garden</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="greenroots.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">GreenRoots</a>
+            <button class="menu-toggle" aria-label="Toggle menu"></button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gardens.html">Gardens</a></li>
+                <li><a href="get-involved.html">Get Involved</a></li>
+                <li><a href="donate.html" class="active">Donate</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="donate-hero">
+            <div class="container">
+                <h1>Support Our Community Gardens</h1>
+                <p>Your donation helps us maintain and expand our community garden spaces, providing fresh produce and educational opportunities for everyone,every donation matters </p>
+            
+            </div>
+
+
+        </section>
+
+        <section class= "donate-options">
+            <div class ="container">
+                <h2>Ways to Give</h2>
+                <div class= "donate-card">
+                    <h3>One-Time Donation</h3>
+                    <p>Make a single contribution to support our garden projects.</p>
+                    <button onclick="">Donate Now</button>
+                </div>
+
+                <div class="donate-card">
+                    <h3>Monthly Support</h3>
+                    <p>Join our monthly giving program and make a lasting impact.</p>
+                    <button onclick="">Become a Monthly Donor</button>
+                    <a href="E:\GreenRoots Website\2 What to Grow_Web.pdf"download>Download PDF</a>
+                </div>
+
+                <div class ="donate-card">
+                    <h3>Volunteer Hours</h3>
+                    <p>Give your time and skills to help us grow our gardens.</p>
+                    <button onclick="">Learn More About Volunteering</button>
+                <a href="E:\GreenRoots Website\SPowell_CGC-Garden-Manual-Final.pdf"download>Download PDF</a>
+                </div>
+
+            </div >
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+     <div class="donation-form fade-in
+"<h3 class="donation-form-title">Donate to GreenRoots Community Garden</h3>
+        <form class="donation-form" action="https://www.paypal.com/donate" method="post" target="_top">
+            <input type="hidden" name="hosted_button_id" value="YOUR_PAYPAL_BUTTON_ID">
+            <label for="amount">Donation Amount:</label>
+            <input type="number" name="amount" id="amount" min="1" required>
+            <button type="submit">Donate Now</button>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 GreenRoots Community Garden. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <div class="donation-form fade-in">
+        <h3 class="text-center mb-2">Donate to GreenRoots Community Garden</h3>
+    <form id=""donation-form>
+        <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="amount">Donation Amount:</label>
+            <input type="number" id="amount" name="amount" min="1" required>
+
+            <label for="message">Message (optional):</label>
+            <textarea id="message" name="message"></textarea>
+    </form>
